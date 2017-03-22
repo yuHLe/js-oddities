@@ -4,6 +4,11 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
+    <nav>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+    </nav>
+    <router-outlet></router-outlet>
     <p>JavaScript is a wonderful language.  It's extremely flexible and forgiving.  This flexibility, however, could potentially lead to bad coding habbits for beginners.  At the very least, it does provide some head scratching moments.</p>
 
     <p>Take into consideration some of the following examples:</p>
