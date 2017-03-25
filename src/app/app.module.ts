@@ -14,10 +14,10 @@ import { NumberStringOddityComponent } from './page/oddities/number-string-oddit
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'array-oddity', component: ArrayOddityComponent },
-  { path: 'decimal-oddity', component: DecimalOddityComponent },
-  { path: 'infinity-oddity', component: InfinityOddityComponent },
-  { path: 'number-string-oddity', component: NumberStringOddityComponent },
+  { path: 'oddities/array', component: ArrayOddityComponent },
+  { path: 'oddities/decimal', component: DecimalOddityComponent },
+  { path: 'oddities/infinity', component: InfinityOddityComponent },
+  { path: 'oddities/number-string', component: NumberStringOddityComponent },
   {
     path: '',
     redirectTo: '/home',

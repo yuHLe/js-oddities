@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
       <a routerLink="/oddities/array" routerLinkActive="active">Array</a>
       <a routerLink="/oddities/decimal" routerLinkActive="active">Decimal</a>
       <a routerLink="/oddities/infinity" routerLinkActive="active">Infinity</a>
-      <a routerLink="/oddities/number-string-oddity" routerLinkActive="active">Number String</a>
+      <a routerLink="/oddities/number-string" routerLinkActive="active">Number String</a>
     </nav>
     <router-outlet></router-outlet>
   `,
